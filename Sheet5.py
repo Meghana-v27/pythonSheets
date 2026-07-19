@@ -72,7 +72,7 @@ for number in nums:
 # 7. First Number Divisible by Both 7 and 9
 n=int(input())
 num=1
-while num<=n:
+while n>0:
     if n%7==0 and n%9==0:
         print(n)
         break
